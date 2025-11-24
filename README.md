@@ -2,7 +2,7 @@
 
 Authors: Jiahao Li, Yang Lu, Yachao Zhang, Yong Xie*, Fangyong Wang, Yuan Xie, Yanyun Qu*.     *Corresponding author
 
-[[paper]()] 
+[[paper](http://arxiv.org/abs/2511.16170)] 
 
 > **Open-vocabulary semantic segmentation (OVSS) employs pixel-level vision-language alignment to associate category-related prompts with corresponding pixels. A key challenge is enhancing the multimodal dense prediction capability, specifically this pixel-level multimodal alignment. Although existing methods achieve promising results by leveraging CLIP’s vision-language alignment, they rarely investigate the performance boundaries of CLIP for dense prediction from an interpretability mechanisms perspective. In this work, we systematically investigate CLIP's internal mechanisms and identify a critical phenomenon: analogous to human distraction, CLIP diverts significant attention resources from target regions to irrelevant tokens. Our analysis reveals that these tokens arise from dimension-specific over-activation; filtering them enhances CLIP's dense prediction performance. Consequently, we propose ReFocusing CLIP (RF-CLIP), a training-free approach that emulates human distraction-refocusing behavior to redirect attention from distraction tokens back to target regions, thereby refining CLIP's multimodal alignment granularity. Our method achieves SOTA performance on eight benchmarks while maintaining high inference efficiency.** 
 >
@@ -11,7 +11,7 @@ Authors: Jiahao Li, Yang Lu, Yachao Zhang, Yong Xie*, Fangyong Wang, Yuan Xie, Y
 > </p>
 
 ## News
-* **2025-11** :loudspeaker: Our work, [RF-CLIP](), has been accepted by AAAI 2026.
+* **2025-11** :loudspeaker: Our work, [RF-CLIP](http://arxiv.org/abs/2511.16170), has been accepted by AAAI 2026.
 * **2025-12** :rocket: We will release the code for RF-CLIP.
 
 ## Installation
