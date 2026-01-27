@@ -13,6 +13,7 @@ Authors: Jiahao Li, Yang Lu, Yachao Zhang, Yong Xie*, Fangyong Wang, Yuan Xie, Y
 ## News
 * **2025-11** :loudspeaker: Our work, [RF-CLIP](http://arxiv.org/abs/2511.16170), has been accepted by AAAI 2026.
 * **2025-12** :rocket: We will release the code for RF-CLIP.
+* **2026-01** :star: We release our code.
 
 ## Installation
 
@@ -34,7 +35,7 @@ python ./datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO_OBJE
 ```
 
 ## Evaluation
-To evaluate CASS on a all 8 benchmarks, run the following command:
+To evaluate RF-CLIP on a all 8 benchmarks, run the following command:
 ```shell script
 bash eval_all.sh
 ```

@@ -1,0 +1,12 @@
+work_dirs/
+__pycache__/
+docs/
+**.png
+**.jpg
+**.pyc
+**.pth
+**.ipynb
+data/
+data
+.dist_test/
+.ipynb_checkpoints/
