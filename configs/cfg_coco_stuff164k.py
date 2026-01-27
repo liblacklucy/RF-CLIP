@@ -3,7 +3,6 @@ _base_ = './base_config.py'
 # model settings
 model = dict(
     name_path='./configs/cls_coco_stuff.txt',
-    slide_crop=0,
     global_semantics_weight = 0.2,
     mean_vector_weight = 0.02,
     h_threshold = 0.02
